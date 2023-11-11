@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.launchcode.techjobs.persistent.TestTaskThree" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-11-11T17:06:10" hostname="Captains-MBP.lan" time="0.001">
+  <properties/>
+  <testcase name="testSqlQuery()" classname="org.launchcode.techjobs.persistent.TestTaskThree" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: Task 3 SQL query is incorrect. Test your query against your database to find the error. ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Task 3 SQL query is incorrect. Test your query against your database to find the error. ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.launchcode.techjobs.persistent.TestTaskThree.testSqlQuery(TestTaskThree.java:189)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

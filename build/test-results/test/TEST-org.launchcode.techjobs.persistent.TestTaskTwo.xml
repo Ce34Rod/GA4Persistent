@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.launchcode.techjobs.persistent.TestTaskTwo" tests="3" skipped="0" failures="3" errors="0" timestamp="2023-11-11T17:06:10" hostname="Captains-MBP.lan" time="0.029">
+  <properties/>
+  <testcase name="testEmployerControllerIndexMethodDefinition(EmployerRepository)" classname="org.launchcode.techjobs.persistent.TestTaskTwo" time="0.022">
+    <failure message="org.opentest4j.AssertionFailedError: The value parameter for the routing annotation must be the empty string ==&gt; expected: &lt;/&gt; but was: &lt;index&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The value parameter for the routing annotation must be the empty string ==&gt; expected: &lt;/&gt; but was: &lt;index&gt;
+	at app//org.launchcode.techjobs.persistent.TestTaskTwo.testEmployerControllerIndexMethodDefinition(TestTaskTwo.java:381)
+</failure>
+  </testcase>
+  <testcase name="testSqlQuery()" classname="org.launchcode.techjobs.persistent.TestTaskTwo" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: Task 2 SQL query is incorrect. Test your query against your database to find the error. ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Task 2 SQL query is incorrect. Test your query against your database to find the error. ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.launchcode.techjobs.persistent.TestTaskTwo.testSqlQuery(TestTaskTwo.java:558)
+</failure>
+  </testcase>
+  <testcase name="testSkillControllerIndexMethodDefinition(SkillRepository)" classname="org.launchcode.techjobs.persistent.TestTaskTwo" time="0.006">
+    <failure message="org.opentest4j.AssertionFailedError: The value parameter for the routing annotation must be the empty string ==&gt; expected: &lt;/&gt; but was: &lt;index&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The value parameter for the routing annotation must be the empty string ==&gt; expected: &lt;/&gt; but was: &lt;index&gt;
+	at app//org.launchcode.techjobs.persistent.TestTaskTwo.testSkillControllerIndexMethodDefinition(TestTaskTwo.java:487)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
